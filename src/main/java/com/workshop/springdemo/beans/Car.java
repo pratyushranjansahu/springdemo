@@ -23,5 +23,9 @@ public class Car {
 	public void setEngine(Engine engine) {
 		this.engine = engine;
 	}
+	
+	public void printDetails(){
+		System.out.println("Car Name : "+name+" Engine detials : "+engine);
+	}
 
 }

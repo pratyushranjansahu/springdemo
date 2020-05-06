@@ -8,6 +8,11 @@ public class Engine {
 
 	private String modelYear;
 
+	@Override
+	public String toString() {
+		return "Engine [modelYear=" + modelYear + "]";
+	}
+
 	public String getModelYear() {
 		return modelYear;
 	}
