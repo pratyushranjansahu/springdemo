@@ -11,7 +11,7 @@ public class ClientTestApplicationContext {
 
 	public static void main(String[] args) {
 		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring.xml");
-		Test test=(Test)applicationContext.getBean("t");
+		//Test test=(Test)applicationContext.getBean("t");
 		
 		//System.out.println(test);
 	}
