@@ -11,7 +11,8 @@ public class ClientBeanLifeCycleTest {
 		String[] files=new String[]{"beanlifecycle.xml"};
 		ConfigurableApplicationContext   context=new ClassPathXmlApplicationContext(files);
 		BeanLifeCycleDemoBean car=(BeanLifeCycleDemoBean)context.getBean("b1");
-		context.close();
+		//context.close();
+		context.registerShutdownHook();
 	}
 
 }
