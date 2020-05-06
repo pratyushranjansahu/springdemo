@@ -3,12 +3,10 @@
 <beans>
 <bean id="car" class="com.workshop.springdemo.beans.Car" autowire="byType">
 <property name="name" value="Audi"/>
-<property name="engine" ref="e1">
+<!-- <property name="engine" ref="e1"/> -->
 
-</property>
+
 
 </bean>
-<bean id="e1" class="com.workshop.springdemo.beans.Engine">
-<property name="modelYear" value="2020"/>
-</bean>
+
 </beans>

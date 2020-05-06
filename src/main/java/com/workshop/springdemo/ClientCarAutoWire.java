@@ -8,7 +8,8 @@ import com.workshop.springdemo.beans.Car;
 public class ClientCarAutoWire {
 
 	public static void main(String[] args) {
-		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("carsautowire.xml");
+		String[] files=new String[]{"carsautowire.xml","engineautowire.xml"};
+		ApplicationContext applicationContext=new ClassPathXmlApplicationContext(files);
 		Car car=(Car)applicationContext.getBean("car");
 		car.printDetails();
 	}
