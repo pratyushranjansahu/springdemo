@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="consturctorditest" class="com.workshop.springdemo.beans.ConstructorDiTest">
+<constructor-arg value="Ram" type="String" index="0"/>
+<constructor-arg value="26" type="int" index="1"/>
+<constructor-arg value="ram@gmail.com" type="String" index="2"/>
+
+
+</bean>
+
+</beans>
