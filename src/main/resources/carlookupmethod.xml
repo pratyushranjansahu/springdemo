@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="car" class="com.workshop.springdemo.beans.CarLookUp">
+<lookup-method name="myEngine" bean="e1"/>
+
+</bean>
+<bean id="e1" class="com.workshop.springdemo.beans.Engine">
+<property name="modelYear" value="2018"/>
+</bean>
+
+</beans>
