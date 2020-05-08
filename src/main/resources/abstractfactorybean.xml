@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="manager"  class="com.workshop.springdemo.beans.EmployeeFactoryBean">
+    <property name="designation" value="Manager" />
+</bean>
+ 
+<bean id="director"  class="com.workshop.springdemo.beans.EmployeeFactoryBean">
+    <property name="designation" value="Director" />
+</bean>
+
+</beans>
