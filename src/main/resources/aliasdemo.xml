@@ -1,0 +1,10 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="al" class="com.workshop.springdemo.beans.AliasDemoBean">
+  <property name="name" value="AliasDemo"/>
+       <property name="time" value="50"/>
+</bean>
+<alias name="al" alias="alias_demo"/>
+
+</beans>
