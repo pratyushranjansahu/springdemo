@@ -1,0 +1,10 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="entitlement"  class="com.workshop.springdemo.beans.Entitlement">
+    <property name="name" value="Hari" />
+     <property name="time" value="20" />
+</bean>
+
+
+</beans>
