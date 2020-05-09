@@ -1,0 +1,10 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="customBeanPostProcessor" class="com.workshop.springdemo.beans.CustomBeanPostProcessor" />
+ 
+<bean id="b1" class="com.workshop.springdemo.beans.BeanLifeCycleXMLDemoBean" init-method="myInit" destroy-method="myDestroy">
+<property name="name" value="Ram"></property>
+</bean>
+
+</beans>
