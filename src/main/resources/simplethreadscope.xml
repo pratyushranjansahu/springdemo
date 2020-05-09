@@ -1,0 +1,14 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+      <property name="scopes">
+          <map>
+              <entry key="thread">
+                  <bean class="org.springframework.context.support.SimpleThreadScope"/>
+              </entry>
+          </map>
+      </property>
+    </bean>
+    <bean id="simpleThreadScopeBean" class="com.workshop.springdemo.beans.SimpleThreadScopeBean"  scope="thread" />
+</beans>
