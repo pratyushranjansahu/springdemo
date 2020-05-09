@@ -1,0 +1,16 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="baseCustomer" abstract="true">
+		<property name="country" value="Malaysia" />
+	</bean>
+
+	<bean id="childCustomer" parent="baseCustomer"
+	class="com.workshop.springdemo.beans.AbstractCustomer" 
+	>
+		<property name="country" value="Japan" />
+		<property name="action" value="buy" />
+		<property name="type" value="1" />
+	</bean>
+
+</beans>
