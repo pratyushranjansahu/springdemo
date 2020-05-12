@@ -1,9 +1,11 @@
 package com.workshop.springdemo;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import com.workshop.springdemo.beans.AbstractCustomer;
 
 public class ClientBeanPostProcessor {
 

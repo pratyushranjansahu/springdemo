@@ -1,6 +1,6 @@
 package com.workshop.springdemo;
 
-import org.springframework.context.ApplicationContext;
+/*import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ import com.workshop.springdemo.beans.CircularBeanB;
 /*
  * https://www.logicbig.com/tutorials/spring-framework/spring-core/circular-dependencies.html
  */
-@ComponentScan(basePackageClasses = ClientCircularBean.class, useDefaultFilters = false,
+/*@ComponentScan(basePackageClasses = ClientCircularBean.class, useDefaultFilters = false,
 //scan only the nested beans of this class
 includeFilters = {@ComponentScan.Filter(
         type = FilterType.ASSIGNABLE_TYPE,
@@ -27,4 +27,4 @@ public class ClientCircularBean {
 	                new AnnotationConfigApplicationContext(ClientCircularBean.class);
 	}
 
-}
+}*/

@@ -1,6 +1,6 @@
 package com.workshop.springdemo.beans;
 
-import org.springframework.stereotype.Component;
+/*import org.springframework.stereotype.Component;
 
 @Component
 public class CircularBeanA {
@@ -8,4 +8,4 @@ public class CircularBeanA {
 	public CircularBeanA(CircularBeanB circularBeanB){
 		this.circularBeanB=circularBeanB;
 	}
-}
+}*/
